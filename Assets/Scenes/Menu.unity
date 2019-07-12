@@ -940,7 +940,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &307010424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1644,7 +1644,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Voltar
 --- !u!222 &694272506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2826,10 +2826,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 7
     m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2837,7 +2837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click the buttons to change to diferents 3D objects.
+  m_Text: "Clique nos bot\xF5es na tela para acessar diferentes componentes."
 --- !u!222 &1246671788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2980,10 +2980,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 7
     m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2991,7 +2991,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Shift to stop the camera.
+  m_Text: "Pressione a tecla \"Shift\" para pausar o movimento de rota\xE7\xE3o da
+    c\xE2mera."
 --- !u!222 &1555000031
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3059,7 +3060,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 8
@@ -3070,7 +3071,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press ESC to enter pause menu.
+  m_Text: Pressione ESC para abrir a tela de pausa.
 --- !u!222 &1595512826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3593,10 +3594,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 8
+    m_MinSize: 7
     m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -3604,7 +3605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Move the mouse scroll to zoom in and zoom out the 3D object.
+  m_Text: "Mova o bot\xE3o de rolagem do mouse para aplicar e retirar o zoom."
 --- !u!222 &1864951611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4124,7 +4125,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4135,7 +4136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Move the mouse to all positions to turn the object in 360\xB0."
+  m_Text: "Mova o mouse para rotacionar a c\xE2mera em volta do objeto."
 --- !u!222 &2010695645
 CanvasRenderer:
   m_ObjectHideFlags: 0
