@@ -48,7 +48,8 @@ public class CameraOrbit : MonoBehaviour
         this._XForm_Camera = this.transform;
         this._XForm_Parent = this.transform.parent;
     }
- 
+
+    //LateUpdate é chamado após o Update de cada objeto na cena, isso evita bugs visuais
     void LateUpdate() 
     {
         //Habilita a variável CameraDisable parando a câmera
@@ -63,7 +64,7 @@ public class CameraOrbit : MonoBehaviour
                 _LocalRotation.x += Input.GetAxis("Mouse X") * MouseSensitivity;
                 _LocalRotation.y += Input.GetAxis("Mouse Y") * MouseSensitivity;
  
-                //Prende a rotação do eixo Y no horizonte e não vira no topo
+                //Prende a rotação do eixo Y no horizonte e no topo
                 if (_LocalRotation.y < 0f)
                     _LocalRotation.y = 0f;
                 else if (_LocalRotation.y > 90f)
@@ -73,16 +74,18 @@ public class CameraOrbit : MonoBehaviour
             if (Input.GetAxis("Mouse ScrollWheel") != 0f)
             {
                 float ScrollAmount = Input.GetAxis("Mouse ScrollWheel") * ScrollSensitvity;
- 
+
+                //Faz a camera dar zoom mais rápido o quão mais longe estiver do objeto e mais devagar quando mais estiver
                 ScrollAmount *= (this._CameraDistance * 0.3f);
  
                 this._CameraDistance += ScrollAmount * -1f;
  
+                //seta o tamanho máximo e mínimo que a câmera pode chegar do objeto
                 this._CameraDistance = Mathf.Clamp(this._CameraDistance, distMin, distMax);
             }
         }
  
-        //Posições em tempo real do transform da câmera
+        //Posições em tempo real do transform da câmera e amortização da velocidade da camera
         Quaternion QT = Quaternion.Euler(_LocalRotation.y, _LocalRotation.x, 0);
         this._XForm_Parent.rotation = Quaternion.Lerp(this._XForm_Parent.rotation, QT, Time.deltaTime * OrbitDampening);
  
